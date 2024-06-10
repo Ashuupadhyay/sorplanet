@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(26, 7, 7);
+            background-repeat:repeat-y ;
+      
+        }
+        @keyframes earrrt{
+                  0%{
+                        background-position: 0px;
+                  }
+                  100%{
+                        background-position: 500px;
+                  }
+        }
+        
+             
+             .earth{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 600px;
+                width: 900px;
+                border: 3px dashed rgb(221, 214, 214);
+                border-radius: 100%;
+        
+             }
+             .sun{
+                height: 250px;
+                width: 250px;
+                border-radius: 100%;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFyApZy1iIOdHOt_QIEEUhEvgfmNqMviD-Jg&s");
+                background-size: 100%;
+        
+             animation: earrrt 10s linear infinite;
+             box-shadow: 10px 10px 20px goldenrod;
+             }
+             .jupiter{
+                height: 150px;
+                width: 150px;
+                border-radius:100% ;
+                background-image: url("https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/03/09/Photos/Processed/nasa1-k9KG--621x414@LiveMint.jpg");
+                
+                
+                position: absolute;
+                
+                margin-left: 900px;
+                animation: earrrt 10s linear infinite;
+             }
+             .ear{
+                height: 150px;
+                width: 150px;
+                border-radius:100% ;
+                
+                position: absolute;
+                margin-top: 600px;
+                
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbBXKa73clxxq0l5TuoHEFzuU2JCwcyLVLcg&s" );
+             
+             background-size: 100%;
+             animation: earrrt 10s linear infinite;
+             }
+             .mercury{
+                height: 150px;
+                width: 150px;
+                border-radius:100% ;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkC-wxoR6s_LXX4Eoszs2I4xghl1DMEzj-8g&s");
+                position: absolute;
+                margin-bottom: 600px;
+                animation: earrrt 10s linear infinite;
+             }
+            .mars{
+                height: 150px;
+                width: 150px;
+                border-radius:100% ;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkKwUd3M5MUdvRE5My8YFmtyjTm95D6VdouQ&s");
+                position: absolute;
+                margin-right: 900px;
+                animation: earrrt 10s linear infinite;
+                
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="earth">
+                 <div class="sun">
+
+                 </div>
+                 <div class="jupiter"></div>
+                 <div class="ear"></div>
+                 <div class="mercury"></div>
+                 <div class="mars"></div>
+        </div>
+        
+
+    </div>
+</body>
+</html>
